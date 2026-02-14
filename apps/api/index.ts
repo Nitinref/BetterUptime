@@ -6,4 +6,9 @@ app.post("/website" , (req,res)=>{
 
 })
 
+
+app.get("/status/:websiteId" , (req,res)=>{
+
+
+})
 app.listen(3000)
